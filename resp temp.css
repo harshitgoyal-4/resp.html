@@ -1,0 +1,766 @@
+*{  margin:0; padding:0; }
+
+
+.template{
+    cursor:pointer;
+         }
+
+.hrsec {
+
+    background-image: linear-gradient(rgb(24 1 1 / 97%),rgb(0 0 0 / 89%)),url(https://layerdrops.com/aspro/main-html/assets/images/backgrounds/main-slider-three-bg.jpg);
+    background-size:cover;
+    cursor:pointer;
+   
+}
+
+.navbar {
+    z-index:1;
+    display: flex;
+    background-color: #150202;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    height: 78px;
+    border-bottom: 1px solid grey;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul,li,a{
+  
+    color:grey;
+    text-decoration:none;
+    list-style-type:none;
+    cursor:pointer;
+    
+                }
+
+.navbar ul {
+
+
+    display:contents;
+}
+
+.navbar button {
+    width: 180px;
+    height: 55px;
+    color: white;
+    background-color: rgb(111 193 224 / 0%);
+}
+
+.navbar a:hover{
+   color:white;
+   
+}
+
+i:hover
+{
+color:red;
+}
+
+.section {
+    font-size: 180px;
+   
+    color: white;
+    letter-spacing: 10.1px;
+    line-height: 180px;
+    
+    text-transform: uppercase;
+    padding: 10px;
+    padding-top: 57px;
+
+}
+
+.contact {
+    position: relative;
+    padding-top: 40px;
+    display: flex;
+    justify-content: end;
+}
+
+a.cc {
+    font-size:18px;
+    color:white;
+    margin-right: 28px;
+}
+
+a.cc:hover{
+    color:red;
+}
+
+.images {
+    padding:59px 0px 0px 4px;
+    margin-bottom: -4px;
+    
+}
+
+.images img{
+    width:753px;
+    mix-blend-mode:luminosity;
+           }
+
+
+.images img:hover{
+    mix-blend-mode:normal;
+                 }
+
+.rec {
+  
+    /* position: relative; */
+    background-color: red;
+    height: 68px;
+    /* top: 70px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: -41px;
+}
+
+.rec li{
+      color:white;
+      font-size:20px;
+       }
+
+
+.rec ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.m2img {
+    height: fit-content;
+    width: 0px;
+    position: relative;
+    top: 326px;
+    right: 316px;
+}
+
+.m1img img{
+    
+    padding-left: 75px;
+}
+
+.main {
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 105px;
+    justify-content: space-around;
+}
+
+i.fa-solid.fa-book-skull {
+    color: orangered;
+    font-size: 50px;
+}
+
+.main2 {
+    width: 623px;
+    padding-top:8px;
+}
+
+.iicons {
+    display: flex;
+    width: 46%;
+    justify-content: space-between;
+    border-right:2px solid grey;
+}
+
+.micons {
+    display: flex;
+    padding-top: 31px;
+    justify-content: space-between;
+}
+
+p.content {
+    width: 592px;
+    line-height: 28px;
+    color: grey;
+    font-size: 17px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+span {
+    color: red;
+}
+
+p.tagline {
+    color: grey;
+    letter-spacing: 2px;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.main2 h1 {
+    padding-top: 8px;
+    font-size: 55px;
+    line-height: 50px;
+    font-weight: initial;
+    letter-spacing: 0px;
+}
+
+.iicons h3 {
+    margin-right: 48px;
+    font-weight: revert;
+    font-size: 25px;
+    line-height: 27px;
+}
+
+.micons p {
+    margin-right: 80px;
+    color:grey;
+    line-height:30px;
+    font-size: 17px;
+}
+
+
+
+li {
+   
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    line-height: 29px;
+}
+
+ul.content11 {
+    padding: 23px;
+    width: 80%;
+    border-right: 4px solid red;
+    height: fit-content;
+    background-color:#f6f6f6;
+    margin-top: 48px;
+}
+
+button.libutton {
+    color: white;
+    border: none;
+    font-family: math;
+    margin-top: 41px;
+    font-weight: 600;
+    width: 204px;
+    height: 65px;
+    background-color: #ff0808;
+}
+
+ul.marul2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 53px;
+    height: 70px;
+    font-family: math;
+}
+
+.marque2 li
+{
+   color:black;
+   font-size:60px;
+}
+
+.textimg /*setting it into flex and giving padding from top and bottom and spacing evenly*/
+{
+    display: flex;
+    padding: 90px 0px 120px 0px;
+    justify-content: space-evenly;
+}
+
+.textimg a /*changing the color,font size of <a> tag ing texting*/
+{
+    color: white;
+    font-size: 41px;
+}
+
+.textimg a:hover /*setting hover to <a> tag */
+{
+    color: red;
+    font-size: 44px;
+    font-weight:700;
+}
+
+.timg1  /*setting img,width,height,center aligning of text */
+ {
+    width: 370px;
+    background-image: url(https://layerdrops.com/aspro/main-html/assets/images/resources/feature-2-1.jpg);
+    height: 398px;
+    justify-content: center;
+    display: flex;
+    text-align:center;
+    align-items: center;
+}
+
+.timg2   /*setting img,width,height,center aligning of text */
+{
+    width: 370px;
+    background-image: url(https://layerdrops.com/aspro/main-html/assets/images/resources/feature-2-2.jpg);
+    height: 398px;
+    justify-content: center;
+    display: flex;
+    text-align:center;
+    align-items: center;
+}
+
+.timg3 /*setting img,width,height,center aligning of text */
+ {
+    width: 370px;
+    background-image: url(https://layerdrops.com/aspro/main-html/assets/images/resources/feature-2-3.jpg);
+    height: 398px;
+    justify-content: center;
+    display: flex;
+    text-align:center;
+    align-items: center;
+}
+
+ /*setting height,width,bckgrnd img of class=contaner  */
+.container {
+    
+    background-image: linear-gradient(rgb(250 246 246 / 0%),rgb(209 203 203)),
+url(https://layerdrops.com/aspro/main-html/assets/images/backgrounds/services-three-bg.jpg);
+    padding-bottom: 120px;
+}
+
+/*setting top and bottom paddings*/
+.consection {
+   padding-top: 120px;
+   padding-bottom:80px;
+}
+
+.coheading /*giving width to heading*/ 
+{
+   width: 41%;
+}
+
+ p /*coloring text and giving spaces*/
+{
+   color:grey;
+   font-size: 17px;
+   line-height:30px;
+  
+}
+
+ span /* twxt color,weight and size */
+ {
+   color: red;
+   font-weight: bolder;
+   font-size: 18px;
+}
+
+ h2 /*setting of heading mrgin,font size,line height */
+{
+   font-size: 50px;
+   line-height: 60px;
+   margin-top: 3px;
+   letter-spacing: -1px;
+
+}
+
+.copara /*setting width,color text,and its font size*/ 
+{
+   width: 44.666667%;
+   color: grey;
+   line-height: 30px;
+   font-size: 17px;
+}
+
+.con1 {
+  
+   display: flex;
+   justify-content: space-between;
+   width: 71%;
+   margin: auto;
+   align-items:center;
+}
+
+.con2 {
+   display: flex;
+   justify-content: space-evenly;
+   text-align: center;
+   margin: auto;
+   align-items: center;
+   width: 81%;
+   height: fit-content;
+}
+
+.con2 a {
+   color: black;
+   font-weight: bold;
+   font-family: math;
+   font-size: 27px;
+   position: relative;
+   top: 102px;
+}
+
+.con2 i
+{
+   font-size: 31px;
+   position: relative;
+   top: 72px;
+}
+
+.box1,.box2 ,.box3 ,.box4 ,.box5 
+{
+   width: 219.5px;
+   height: 235px;
+   background-color:white;
+}
+
+
+.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover
+{
+   background-color:black;
+   color:white
+
+} 
+
+.box1 a:hover,.box2 a:hover,.box3 a:hover,.box4 a:hover,.box5 a:hover
+{ 
+color:white
+}
+
+.ccontact {
+   
+    justify-content:center;
+    display:flex;
+    height: fit-content;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.mcontact {
+    margin-top: 30px;
+    
+}
+
+.mcontact li
+{
+    display:flex;
+    align-items:center;
+    justify-content:space-betwwen;
+   
+}
+
+.coicon i
+{
+   font-size:30px;
+   width:62px;
+   
+}
+
+.mcontact a,h4
+{
+   color:black;
+   letter-spacing:-1px;
+}
+
+.mcontact a:hover
+{
+   color:red;
+   
+}
+
+.appicons
+ {
+    margin-top: 37px;
+}
+
+.appicons i
+{  
+   background-color:#f6f6f6;
+   border-radius:100%;
+   border:none;
+   font-size:20px;
+   text-align:center;
+   width:10%
+}
+
+.lcontact {
+    
+    height: fit-content;
+}
+
+
+
+.vvv input, textarea {
+    padding: 16px;
+    border: none;
+    background-color: #f6f6f6;
+    margin: 0px 17px 20px 0px;
+    width: 300px;
+    height: 40px;
+}
+
+textarea {
+    width: 654px;
+    height: 174px;
+}
+
+.form {
+    padding-left: 90px;
+}
+
+button.lbutton {
+    color: white;
+    border: none;
+    font-family: math;
+    font-weight: 600;
+    width: 204px;
+    height: 65px;
+    background-color: #ff0808;
+}
+
+
+
+/*footer*/
+
+.footer
+{
+   
+   background-image:linear-gradient(rgb(0,0,0.5,0.75),rgb(0,0,0,0)),
+url("https://layerdrops.com/aspro/main-html/assets/images/backgrounds/site-footer-bg.jpg");
+   background-size:cover;
+}
+
+.fot
+{
+   display:flex;
+   justify-content:center;
+   padding:113px 0px 117px ;
+}
+
+.fot h3 {
+    font-size: 16px;
+    color:white;
+    line-height: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+.fot p {
+    font-size: 16px;
+    line-height: 34px;
+    color: #595959;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+
+.fot ul {
+    margin-top: 25px;
+}
+
+.fot3 li,.fot3 a {
+    margin-top: 5px;
+    font-size: 16px;
+
+    color: #595959;
+    font-weight: revert;
+    font-family: sans-serif;
+}
+
+.fot3 a:hover
+{
+   color:white;
+}
+
+.fot4 input
+{
+    height: 53px;
+    border: none;
+    border-bottom: 2px solid #595959;
+    background-color: transparent;
+    margin: 25px 0px 25px;
+    font-size: 14px;
+    color:white;
+    padding-right: 38px;
+    font-weight: 500;
+}
+
+.fot2 a
+{
+   color:white
+}
+
+.fot2 a:hover
+{  
+   color:red;
+}
+
+.fot2,.fot3
+{
+   padding:0px 80px 0px 80px;
+}
+
+.fot1
+{  
+   padding:0px 80px 0px 0px;
+}
+
+.fot4
+{
+   padding:0px 0px 0px 80px;
+
+}
+
+.fot4 i {
+    height: 28px;
+    width: 41px;
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+    background-color: #101010;
+    font-size: 15px;
+    border-radius: 50%;
+}
+
+.fot4 i:hover
+{ 
+   background-color: red;
+}
+
+.copyryt {
+   
+    width: 82%;
+    margin: auto;
+    border-top: 0.1px solid #595959;
+    padding: 31px 0px 35px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 1920px) {
+
+
+.images img {
+    width: 49%;
+    margin-left: 9px;
+}
+
+
+}
+
+@media screen and (max-width: 1366px) {
+
+.navbar ul {
+    justify-content: space-evenly;
+}
+}
+
+
+@media screen and (max-width: 1180px) {
+.section {
+    font-size: 130px;
+    color: white;
+    letter-spacing: 10.1px;
+    line-height: 180px;
+    text-transform: uppercase;
+    padding: 10px;
+    padding-top: 57px;
+}
+
+.navlist li {
+   font-size:small; 
+    font-weight: none;
+    
+}
+
+.images img {
+    width: 48%;
+    margin-left: 9px;
+}
+
+p.content {
+    width: 100%;
+    color: grey;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.m1img img {
+    padding-left: 10px;
+    width: 88%;
+    height: 73%;
+}
+
+.m2img {
+    width: 0px;
+    position: relative;
+    top: 327px;
+    right: 373px;
+}
+
+
+.iicons {
+    display: flex;
+    width: 47%;
+    justify-content: space-between;
+    border-right: 2px solid grey;
+}
+.iicons h3 {
+    margin-right: 37px;
+    font-weight: revert;
+    font-size: 25px;
+    
+}
+
+.micons p {
+    margin-right: 53px;
+  
+}
+
+.main2 h1 {
+    padding-top: 8px;
+    font-size: 47px;
+    line-height: 50px;
+    font-weight: initial;
+    letter-spacing: 0px;
+}
+
+ul.content11 {
+    padding: 23px;
+    width: 83%;
+  
+}
+
+.content11 li {
+    font-size: inherit;
+   
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+    width: 181.5px;
+    height: 211px;
+    background-color: white;
+}
+.con2 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+     width: 100%; 
+
+}
+
+.vvv input, textarea {
+
+    width: 179px;
+    height: 29px;
+}
+
+textarea {
+    width: 408px;
+    height: 150px;
+}
+
+.form {
+    padding-left: 48px;
+    padding-top: 46px;
+}
+.fot2, .fot3 {
+    padding: 0px 0px 0px 0px;
+}
+
+a.cc {
+     font-size: none; 
+}
+}
